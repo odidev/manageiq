@@ -1,12 +1,13 @@
 ---
 language: ruby
 matrix:
-  - arch: amd64
-  - sudo: required
-    group: edge
-    virt: lxd
-    dist: bionic
-    arch: arm64-graviton2
+  jobs:
+      - arch: amd64
+      - sudo: required
+        group: edge
+        virt: lxd
+        dist: bionic
+        arch: arm64-graviton2
 rvm:
 - 2.5.8
 - 2.6.6

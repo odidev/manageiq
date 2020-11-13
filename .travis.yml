@@ -1,7 +1,6 @@
 ---
 language: ruby
 matrix:
-- arch: amd64
 - sudo: required
   group: edge
   virt: lxd

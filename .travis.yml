@@ -20,8 +20,6 @@ env:
   matrix:
   - TEST_SUITE=vmdb PARALLEL=true
   - TEST_SUITE=brakeman
-matrix:
-  fast_finish: true
 addons:
   postgresql: '10'
 before_install:
